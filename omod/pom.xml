@@ -43,6 +43,20 @@
             <type>jar</type>
         </dependency>
 
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>webservices.rest-omod-common</artifactId>
+            <version>${openMRSWebServicesVersion}</version>
+            <type>jar</type>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codeartisans</groupId>
+            <artifactId>org.json</artifactId>
+            <version>20150729</version>
+        </dependency>
+
         <!-- End OpenMRS core -->
 
     </dependencies>

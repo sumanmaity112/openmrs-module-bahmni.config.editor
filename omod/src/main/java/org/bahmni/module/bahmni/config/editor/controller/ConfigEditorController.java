@@ -36,7 +36,7 @@ public class ConfigEditorController extends BaseRestController implements Resour
 
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
-    public String get() throws IOException {
+    public String get() {
         return configEditorService.getFileStructure(BASE_CONFIG_DIR).toString();
     }
 
